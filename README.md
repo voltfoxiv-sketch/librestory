@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+# LibreStory
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+LibreStory is a local-first, open-core text adventure engine. 
 
-Currently, two official plugins are available:
+Instead of relying on a centralized service to run your text adventures, LibreStory acts as a standalone desktop client where you bring your own API keys. It handles the interface, context management, and save files locally on your machine, while plugging directly into whatever language model you prefer to use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Bring Your Own Key (BYOK)**: Supports OpenRouter, Gemini, and Hugging Face directly out of the box. You control what model you use and how much you spend.
+- **Local-First Saves**: Your stories, character sheets, and world info stay on your machine. The app saves state directly to your local storage, with options to export and import full JSON save files.
+- **Legacy Import**: Easily drop in your old exported JSON files from AI Dungeon or raw text logs, and the engine will parse them into playable adventures.
+- **Immersive UI**: Built to feel like a modern, premium desktop app rather than a web wrapper. Features a distraction-free reading layout, customizable themes, and integrated context management tools like story cards and relationship trackers.
+- **Data Privacy**: No tracking, no automated account scraping, and no middleman servers. The client talks directly to the LLM providers.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+This project is built with:
+- **React 19 & Vite**: Fast frontend framework and build tooling.
+- **Tailwind CSS & Framer Motion**: For styling, glassmorphism UI elements, and smooth interactions.
+- **Zustand**: Handles local state persistence and engine logic.
+- **Electron**: Packages the whole thing into a standalone desktop executable.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Getting Started
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+To run the application locally in development mode:
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Clone the repository and install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the dev server alongside Electron:
+   ```bash
+   npm run electron:start
+   ```
+
+3. To build a standalone executable for your machine:
+   ```bash
+   npm run electron:build
+   ```
