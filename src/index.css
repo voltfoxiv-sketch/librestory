@@ -1,0 +1,573 @@
+@import "tailwindcss";
+@import url('/fonts/inter/web/inter.css');
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-33.333333%); }
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+:root {
+  --accent-color: #FF9F43;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0B0E11;
+  color: #fff;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes aurora-1 {
+  0% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.4; }
+  33% { transform: translate(10%, -5%) rotate(10deg) scale(1.1); opacity: 0.6; }
+  66% { transform: translate(-5%, 10%) rotate(-5deg) scale(0.9); opacity: 0.5; }
+  100% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.4; }
+}
+
+@keyframes aurora-2 {
+  0% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.3; }
+  33% { transform: translate(-10%, 10%) rotate(-10deg) scale(1.1); opacity: 0.5; }
+  66% { transform: translate(5%, -10%) rotate(5deg) scale(0.9); opacity: 0.4; }
+  100% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.3; }
+}
+
+@keyframes aurora-3 {
+  0% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.2; }
+  50% { transform: translate(12%, 15%) rotate(15deg) scale(1.2); opacity: 0.4; }
+  100% { transform: translate(0%, 0%) rotate(0deg) scale(1); opacity: 0.2; }
+}
+
+.font-serif {
+  font-family: 'Lora', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ========================================================================= */
+/* THEME OVERRIDES */
+/* ========================================================================= */
+
+/* -------------------- MONO -------------------- */
+[data-theme="mono"] {
+  font-family: monospace !important;
+}
+[data-theme="mono"] * {
+  border-radius: 0 !important;
+  font-family: monospace !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+}
+
+[data-theme="mono"] .bg-\[\#161A1F\]\/65,
+[data-theme="mono"] .bg-black\/20,
+[data-theme="mono"] .bg-white\/\[0\.02\],
+[data-theme="mono"] .bg-white\/5 {
+  background-color: transparent !important;
+}
+
+[data-theme="mono"] .border-white\/5,
+[data-theme="mono"] .border-white\/10 {
+  border-color: var(--accent-color) !important;
+  border-style: solid;
+  border-width: 1px;
+}
+
+[data-theme="mono"] .text-gray-200,
+[data-theme="mono"] .text-gray-300,
+[data-theme="mono"] .text-gray-400,
+[data-theme="mono"] .text-gray-500,
+[data-theme="mono"] .text-\[\#cbd5e1\] {
+  color: var(--accent-color) !important;
+  opacity: 0.8;
+}
+
+[data-theme="mono"] .text-white {
+  color: var(--accent-color) !important;
+  opacity: 1;
+}
+
+
+
+/* ----------------- POLARIS ----------------- */
+[data-theme="polaris"] {
+  --polaris-surface: rgba(245, 245, 247, 0.45);
+  --polaris-border: rgba(0, 0, 0, 0.08);
+  --polaris-text-primary: #1D1D1F;
+  --polaris-text-secondary: #86868B;
+  --polaris-bg-solid: #FFFFFF;
+  --polaris-red: #FF5F57;
+  --polaris-yellow: #FEBC2E;
+  --polaris-green: #28C840;
+  --polaris-accent: #0066D6;
+  --polaris-shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.25);
+  letter-spacing: -0.022em;
+}
+
+[data-theme="polaris"] {
+  background: none !important; /* override inline style */
+}
+
+[data-theme="polaris"]::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  z-index: -1;
+  background: url(/themes/royaltyfreebg.jpg) center/cover no-repeat fixed;
+  filter: blur(12px) saturate(150%);
+  pointer-events: none;
+}
+
+[data-theme="polaris"], [data-theme="polaris"] * {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+}
+
+[data-theme="polaris"] .bg-black\/20,
+[data-theme="polaris"] .bg-\[\#161A1F\]\/65,
+[data-theme="polaris"] .bg-\[\#161A1F\]\/95 {
+  background-color: var(--polaris-surface) !important;
+  backdrop-filter: blur(25px) saturate(180%) !important;
+}
+
+[data-theme="polaris"] .border-white\/10,
+[data-theme="polaris"] .border-white\/5 {
+  border-color: var(--polaris-border) !important;
+  border-width: 1px !important;
+}
+
+[data-theme="polaris"] .text-white,
+[data-theme="polaris"] .text-\[\#e2e8f0\],
+[data-theme="polaris"] .text-\[\#cbd5e1\] {
+  color: var(--polaris-text-primary) !important;
+  text-shadow: none !important;
+}
+
+[data-theme="polaris"] .theme-tile-dark .text-white,
+[data-theme="polaris"] .theme-tile-dark .text-gray-200 {
+  color: #fff !important;
+}
+
+[data-theme="polaris"] .text-gray-100 { color: rgba(0, 0, 0, 0.95) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-200 { color: rgba(0, 0, 0, 0.9) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-300 { color: rgba(0, 0, 0, 0.75) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-400 { color: rgba(0, 0, 0, 0.6) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-500 { color: rgba(0, 0, 0, 0.45) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-600 { color: rgba(0, 0, 0, 0.35) !important; text-shadow: none !important; }
+[data-theme="polaris"] .text-gray-700 { color: rgba(0, 0, 0, 0.25) !important; text-shadow: none !important; }
+
+[data-theme="polaris"] .bg-gray-800,
+[data-theme="polaris"] .bg-gray-900 {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="polaris"] textarea {
+  background-color: rgba(255, 255, 255, 0.65) !important;
+  color: var(--polaris-text-primary) !important;
+}
+
+[data-theme="polaris"] .shadow-2xl,
+[data-theme="polaris"] .shadow-\[-10px_0_30px_rgba\(0\,0\,0\,0\.3\)\,inset_2px_2px_3px_rgba\(255\,255\,255\,0\.03\)\,inset_-2px_-2px_3px_rgba\(0\,0\,0\,0\.4\)\] {
+  box-shadow: var(--polaris-shadow-lg) !important;
+}
+
+[data-theme="polaris"] .rounded-2xl,
+[data-theme="polaris"] .rounded-xl {
+  border-radius: 14px !important;
+}
+
+[data-theme="polaris"] button.rounded-lg,
+[data-theme="polaris"] button.rounded-xl,
+[data-theme="polaris"] button.rounded-md {
+  border-radius: 6px !important;
+}
+
+[data-theme="polaris"] .bg-\[\#0B0E11\] {
+  border-radius: 10px !important;
+}
+
+
+/* ----------------- WINDOWS 95 ----------------- */
+@font-face {
+  font-family: 'W95FA';
+  src: url('/fonts/w95f.woff2') format('woff2'),
+       url('/fonts/w95f.woff') format('woff'),
+       url('/fonts/W95F.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-theme="classic"] {
+  font-family: 'W95FA', "MS Sans Serif", Tahoma, sans-serif !important;
+  color: var(--win-text, #000) !important;
+  --win-bg: #c0c0c0;
+  --win-title: #000080;
+  --win-title-text: #ffffff;
+  --win-text: #000000;
+  --win-border-light: #ffffff;
+  --win-border-dark: #808080;
+}
+
+[data-theme="classic"][data-variant="chicago"] {
+  --win-title: #008080;
+}
+
+[data-theme="classic"][data-variant="hotdog"] {
+  --win-bg: #FF0000;
+  --win-title: #000000;
+  --win-title-text: #ffffff;
+  --win-text: #ffffff;
+  --win-border-light: #FFaaaa;
+  --win-border-dark: #880000;
+}
+
+[data-theme="classic"][data-variant="hotdog"] .story-panel {
+  --win-bg: #FFFF00;
+  --win-title: #FF0000;
+  --win-title-text: #ffffff;
+  --win-text: #000000;
+  --win-border-light: #FFFFaa;
+  --win-border-dark: #888800;
+}
+
+
+[data-theme="classic"] * {
+  font-family: 'W95FA', "MS Sans Serif", Tahoma, sans-serif !important;
+  border-radius: 0 !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+[data-theme="classic"] .bg-\[\#161A1F\]\/95,
+[data-theme="classic"] .bg-\[\#161A1F\]\/65,
+[data-theme="classic"] .bg-black\/20,
+[data-theme="classic"] .bg-white\/\[0\.02\],
+[data-theme="classic"] .bg-white\/5,
+[data-theme="classic"] .story-panel {
+  background-color: var(--win-bg) !important;
+}
+
+[data-theme="classic"] .story-panel {
+  border: 2px solid !important;
+  border-top-color: var(--win-border-dark) !important;
+  border-left-color: var(--win-border-dark) !important;
+  border-right-color: var(--win-border-light) !important;
+  border-bottom-color: var(--win-border-light) !important;
+  margin: 0 16px;
+  height: 100%;
+}
+
+[data-theme="classic"] .border-white\/5,
+[data-theme="classic"] .border-white\/10,
+[data-theme="classic"] .border-r,
+[data-theme="classic"] .border-b {
+  border: 2px solid !important;
+  border-top-color: var(--win-border-light) !important;
+  border-left-color: var(--win-border-light) !important;
+  border-right-color: var(--win-border-dark) !important;
+  border-bottom-color: var(--win-border-dark) !important;
+}
+
+/* Inverse borders for active buttons or pressed states in 95 */
+[data-theme="classic"] button:active {
+  border-top-color: var(--win-border-dark) !important;
+  border-left-color: var(--win-border-dark) !important;
+  border-right-color: var(--win-border-light) !important;
+  border-bottom-color: var(--win-border-light) !important;
+}
+
+[data-theme="classic"] .text-white,
+[data-theme="classic"] .text-gray-200,
+[data-theme="classic"] .text-gray-300,
+[data-theme="classic"] .text-gray-400,
+[data-theme="classic"] .text-gray-500,
+[data-theme="classic"] .text-\[\#cbd5e1\] {
+  color: var(--win-text) !important;
+}
+
+/* Custom scrollbars specifically for 95 */
+[data-theme="classic"] ::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 2px solid;
+  border-top-color: #ffffff;
+  border-left-color: #ffffff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  border-radius: 0;
+}
+[data-theme="classic"] ::-webkit-scrollbar-track {
+  background: #dfdfdf;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* BOREALIS (legacy) — Design System Tokens + Component Overrides            */
+/* Activates only under data-theme="legacy". All other themes unaffected.    */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+[data-theme="legacy"] {
+  /* ── Surface tokens ── */
+  --bor-surface-panel:        rgba(15, 20, 30, 0.65);
+  --bor-surface-card:         hsl(235, 18%, 14%);
+  --bor-surface-interactive:  hsl(235, 16%, 17%);
+  --bor-surface-chip:         hsl(235, 22%, 9%);
+  /* ── Border tokens ── */
+  --bor-border:               hsla(230, 40%, 72%, 0.07);
+  --bor-border-strong:        rgba(255, 255, 255, 0.06);
+  /* ── Text tokens ── */
+  --bor-text-primary:         #F4F4F5;
+  --bor-text-secondary:       hsl(220, 14%, 55%);
+  --bor-text-muted:           hsl(220, 11%, 42%);
+  /* ── Functional tokens ── */
+  --bor-destructive:          rgba(239, 68, 68, 0.15);
+  --bor-slider-track:         rgba(0, 0, 0, 0.3);
+  /* ── Radius tokens ── */
+  --bor-radius-card:          12px;
+  --bor-radius-btn-primary:   10px;
+  --bor-radius-btn-secondary: 8px;
+  --bor-radius-chip:          6px;
+  /* ── Shadow tokens ── */
+  --bor-shadow-card:          0 4px 24px hsla(232, 60%, 4%, 0.65);
+  --bor-shadow-panel:         0 8px 32px hsla(232, 60%, 4%, 0.50);
+}
+
+/* ── Surface overrides (replaces generic Tailwind bg utilities) ── */
+[data-theme="legacy"] .bg-white\/\[0\.02\],
+[data-theme="legacy"] .bg-white\/\[0\.03\] {
+  background-color: var(--bor-surface-card) !important;
+}
+[data-theme="legacy"] .bg-white\/5 {
+  background-color: var(--bor-surface-interactive) !important;
+}
+[data-theme="legacy"] .bg-white\/10 {
+  background-color: color-mix(in srgb, var(--bor-surface-interactive) 70%, transparent) !important;
+}
+
+/* ── Border overrides ── */
+[data-theme="legacy"] .border-white\/5 {
+  border-color: var(--bor-border) !important;
+}
+[data-theme="legacy"] .border-white\/10 {
+  border-color: var(--bor-border-strong) !important;
+}
+[data-theme="legacy"] .border-white\/20 {
+  border-color: var(--bor-border-strong) !important;
+}
+
+/* ── Text colour overrides ── */
+[data-theme="legacy"] .text-gray-300 {
+  color: var(--bor-text-primary) !important;
+}
+[data-theme="legacy"] .text-gray-400 {
+  color: var(--bor-text-secondary) !important;
+}
+[data-theme="legacy"] .text-gray-500 {
+  color: var(--bor-text-muted) !important;
+}
+[data-theme="legacy"] .text-\[\#cbd5e1\] {
+  color: var(--bor-text-primary) !important;
+}
+[data-theme="legacy"] .text-\[\#e2e8f0\] {
+  color: var(--bor-text-primary) !important;
+}
+
+/* ── Slider pseudo-element styles — WebKit / Blink ── */
+/*
+ * The Tailwind classes on <input type="range"> (h-1, bg-white/10) target the
+ * INPUT element itself, not the track or thumb. accent-color colours the thumb
+ * in Chromium but NOT the filled track. These pseudo-element rules provide the
+ * filled track gradient + proper thumb treatment.
+ *
+ * --slider-pct is a custom property set per-slider via inline style in JSX:
+ *   style={{ '--slider-pct': `${((val - min) / (max - min)) * 100}%` }}
+ */
+[data-theme="legacy"] input[type="range"] {
+  height: 20px !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 8px 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+[data-theme="legacy"] input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(
+    to right,
+    #00E5A3 0%,
+    #06B6D4 var(--slider-pct, 0%),
+    var(--bor-slider-track, rgba(0, 0, 0, 0.3)) var(--slider-pct, 0%),
+    var(--bor-slider-track, rgba(0, 0, 0, 0.3)) 100%
+  );
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
+}
+[data-theme="legacy"] input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  margin-top: -5px;
+  transition: transform 0.1s ease;
+  cursor: pointer;
+}
+[data-theme="legacy"] input[type="range"]:hover::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+[data-theme="legacy"] input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(0.95);
+}
+
+/* ── Slider pseudo-element styles — Firefox ── */
+[data-theme="legacy"] input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 2px;
+  background: var(--bor-slider-track, rgba(0, 0, 0, 0.3));
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
+  border: none;
+}
+[data-theme="legacy"] input[type="range"]::-moz-range-progress {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #00E5A3, #06B6D4);
+}
+[data-theme="legacy"] input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+/* ── Reduced motion — aurora animations become static ── */
+@media (prefers-reduced-motion: reduce) {
+  [data-theme="legacy"] .aurora-orb {
+    animation: none !important;
+    /* orbs remain in their initial position — the static gradient still reads as aurora */
+  }
+  [data-theme="legacy"] div[style*="shimmer"] {
+    animation: none !important;
+  }
+  [data-theme="legacy"] input[type="range"]::-webkit-slider-thumb {
+    transition: none !important;
+  }
+}
+
+/* ── Additional overrides added in Phase 3-7 pass ── */
+
+/* bg-black/30 → chip surface (darker than card, reads as recessed/embedded) */
+[data-theme="legacy"] .bg-black\/30 {
+  background-color: var(--bor-surface-chip) !important;
+}
+
+/* text-gray-500/80 (opacity modifier) → secondary text, full opacity */
+[data-theme="legacy"] .text-gray-500\/80 {
+  color: var(--bor-text-secondary) !important;
+  opacity: 1 !important;
+}
+
+/* Take a Turn hover glow — override hardcoded Pansy-orange rgba to use the active accent.
+   This also fixes glow colour on Aurora/Atlantic/Nebula variants.               */
+[data-theme="legacy"] .hover\:shadow-\[0_0_25px_rgba\(255\,159\,67\,0\.4\)\]:hover {
+  box-shadow: 0 0 22px color-mix(in srgb, var(--accent-color, #FF9F43) 40%, transparent) !important;
+}
+
+/* bg-[#161A1F]/65 → Borealis panel token for sidebars and menu bar */
+[data-theme="legacy"] .bg-\[\#161A1F\]\/65 {
+  background-color: var(--bor-surface-panel) !important;
+  backdrop-filter: blur(24px) saturate(140%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+/* ── Typography hierarchy for macOS feel ── */
+[data-theme="legacy"] .bor-subtitle {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  opacity: 0.7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ── Button styles overrides ── */
+[data-theme="legacy"] button.hover\:-translate-y-0\.5:not(.bor-erase) {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  /* Glass Neumorphism: raised pill */
+  box-shadow: 
+    inset 0 1px 1px rgba(255, 255, 255, 0.15),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.4),
+    0 4px 15px rgba(0, 0, 0, 0.3) !important;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease !important;
+}
+[data-theme="legacy"] button.hover\:-translate-y-0\.5:not(.bor-erase):hover {
+  transform: scale(1.01) !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.5),
+    0 6px 20px rgba(0, 0, 0, 0.4) !important;
+}
+[data-theme="legacy"] button.hover\:-translate-y-0\.5:not(.bor-erase):active {
+  transform: scale(0.98) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  /* Depressed state on click */
+  box-shadow: 
+    inset 0 3px 6px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.05),
+    0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+@keyframes aurora-drift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+

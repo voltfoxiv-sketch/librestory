@@ -1,0 +1,2402 @@
+[
+  {
+    "keys": "",
+    "value": "Settled into identity; physically at their peak, with growing responsibility.",
+    "type": "Age",
+    "title": "Adult (26–35 years)",
+    "description": "Settled into identity; physically at their peak.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Centuries old, well beyond any normal human lifespan.",
+    "type": "Age",
+    "title": "Ancient (200+ YEARS)",
+    "description": "Centuries old, well beyond any normal human lifespan.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Talkative, learning social rules and basic education.",
+    "type": "Age",
+    "title": "Child (7–9 years)",
+    "description": "Talkative, learning social rules and basic education.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Hormonal and emotionally volatile, beginning to form deeper identity.",
+    "type": "Age",
+    "title": "Early Teen (13–15 years)",
+    "description": "Hormonal and emotionally volatile, beginning to form deeper identity.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Slower, often respected for knowledge and legacy.",
+    "type": "Age",
+    "title": "Elder (61–75 years)",
+    "description": "Slower, often respected for knowledge and legacy.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Begins to show personality, learning to crawl and babble.",
+    "type": "Age",
+    "title": "Infant (1 month – 1 year)",
+    "description": "Begins to show personality, learning to crawl and babble.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "More measured and grounded, with signs of aging just beginning to show.",
+    "type": "Age",
+    "title": "Mature Adult (36–45 years)",
+    "description": "More measured and grounded, with signs of aging just beginning to show.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Body begins to slow; wisdom deepens. Seen as mentors or leaders.",
+    "type": "Age",
+    "title": "Middle-Aged (46–60 years)",
+    "description": "Body begins to slow; wisdom deepens.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Fragile and mostly helpless, with soft features.",
+    "type": "Age",
+    "title": "Newborn (0–1 month)",
+    "description": "Fragile and mostly helpless.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Frail in body, sharp or fading in mind.",
+    "type": "Age",
+    "title": "Old/Aged (76+ years)",
+    "description": "Frail in body, sharp or fading in mind.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mentally sharp, physically in transition—curious and eager.",
+    "type": "Age",
+    "title": "Pre-Adolescent (10–12 years)",
+    "description": "Mentally sharp, physically in transition.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Near adulthood in body and confidence, often rebellious.",
+    "type": "Age",
+    "title": "Teenager (16–19 years)",
+    "description": "Near adulthood in body and confidence.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Energetic, unsteady on their feet, learning to speak.",
+    "type": "Age",
+    "title": "Toddler (1–3 years)",
+    "description": "Energetic, unsteady on their feet.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Physically mature, passions burn bright, decisions often bold.",
+    "type": "Age",
+    "title": "Young Adult (20–25 years)",
+    "description": "Physically mature, passions burn bright.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Playful and curious, with growing independence.",
+    "type": "Age",
+    "title": "Young Child (4–6 years)",
+    "description": "Playful and curious, with growing independence.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Taller than most people, often standing out in a crowd.",
+    "type": "Height",
+    "title": "Above Average (6'0\" – 6'2\")",
+    "description": "Taller than most people, often standing out in a crowd.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Well within the expected range, though on the shorter end.",
+    "type": "Height",
+    "title": "Average (Lower End) (5'6\" – 5'7\")",
+    "description": "Well within the expected range, on the shorter end.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "The common height—neither tall nor short.",
+    "type": "Height",
+    "title": "Average (Middle) (5'7\" – 5'9\")",
+    "description": "The common height—neither tall nor short.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A bit taller than the norm. Often stands out, but not towering.",
+    "type": "Height",
+    "title": "Average (Taller Side) (5'9\" – 5'10\")",
+    "description": "A bit taller than the norm.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Just under the common height, may appear slightly shorter than peers.",
+    "type": "Height",
+    "title": "Below Average (5'0\" – 5'4\")",
+    "description": "Just under the common height.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Under four feet tall — child-sized or shortest of adults.",
+    "type": "Height",
+    "title": "Child/Midget (4'0 and below)",
+    "description": "Under four feet tall.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Stands far below the average height, often mistaken for a child.",
+    "type": "Height",
+    "title": "Exceptionally Short (3'0\" – 4'0\")",
+    "description": "Stands far below the average height.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extremely rare, standing far above most people.",
+    "type": "Height",
+    "title": "Gigantic (6'8\" and above)",
+    "description": "Extremely rare, standing far above most people.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A modest stature that sets them apart as smaller than most.",
+    "type": "Height",
+    "title": "Short (4'6\" – 5'0\")",
+    "description": "A modest stature, smaller than most.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Only slightly below average height, blends in with others.",
+    "type": "Height",
+    "title": "Slightly Short (5'4\" – 5'6\")",
+    "description": "Only slightly below average height.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Taller than most, often commanding attention.",
+    "type": "Height",
+    "title": "Slightly Tall (5'10\" – 6'0\")",
+    "description": "Taller than most, often commanding attention.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Long-limbed with a commanding presence.",
+    "type": "Height",
+    "title": "Tall (6'2\" – 6'4\")",
+    "description": "Long-limbed with a commanding presence.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A striking height that borders on giant-like.",
+    "type": "Height",
+    "title": "Towering (6'6\" – 6'8\")",
+    "description": "A striking height that borders on giant-like.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Noticeably shorter than most people. Often underestimated.",
+    "type": "Height",
+    "title": "Very Short (4'0\" – 4'6\")",
+    "description": "Noticeably shorter than most people.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Unusually tall, often attracting attention from others.",
+    "type": "Height",
+    "title": "Very Tall (6'4\" – 6'6\")",
+    "description": "Unusually tall, often attracting attention.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Functional conditioning across the full body; strong and agile.",
+    "type": "Body",
+    "title": "Athletic",
+    "description": "Strong and agile, with firm muscles.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Balanced proportions, moderate weight and muscle.",
+    "type": "Body",
+    "title": "Average",
+    "description": "Balanced proportions, moderate weight and muscle.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Broad-shouldered and barrel-chested with thick arms.",
+    "type": "Body",
+    "title": "Barrel-Chested",
+    "description": "Deep, wide chest dominating the upper body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Soft around the edges, excess weight distributed gently.",
+    "type": "Body",
+    "title": "Chubby",
+    "description": "Noticeably round, with youthful or soft features.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Pronounced hips and bust with a defined waist.",
+    "type": "Body",
+    "title": "Curvy",
+    "description": "Pronounced hips and bust with a defined waist.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Severely underweight, bones visibly protruding.",
+    "type": "Body",
+    "title": "Emaciated",
+    "description": "Severely underweight, bones visibly protruding.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Once fit; now carrying extra weight over an athletic base.",
+    "type": "Body",
+    "title": "Dad Bod",
+    "description": "Once fit; now carrying extra weight.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Frail and delicate, often with thin skin showing veins.",
+    "type": "Body",
+    "title": "Frail / Elderly",
+    "description": "Thin and fragile.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Full bust and hips balanced by a narrow waist.",
+    "type": "Body",
+    "title": "Hourglass",
+    "description": "Full bust and hips balanced by a narrow waist.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Broad shoulders tapering sharply to narrow hips.",
+    "type": "Body",
+    "title": "Inverted Triangle",
+    "description": "Broad shoulders tapering sharply to narrow hips.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Tall and thin with long limbs that don't quite fit together.",
+    "type": "Body",
+    "title": "Lanky",
+    "description": "Tall and thin with long limbs.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Slim but healthy, with a tight frame and subtle muscle definition.",
+    "type": "Body",
+    "title": "Lean",
+    "description": "Slim but healthy, tight frame.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mature build with some softening and redistribution of weight.",
+    "type": "Body",
+    "title": "Middle-Aged Softening",
+    "description": "The slow redistribution of weight that comes with time.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Broad and powerful, with thick limbs and prominent muscle.",
+    "type": "Body",
+    "title": "Muscular",
+    "description": "Broad and powerful, prominent muscle.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Substantial excess weight, often affecting movement or stamina.",
+    "type": "Body",
+    "title": "Obese",
+    "description": "Substantial excess weight.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Heavyset, with broad waistline and slower movements.",
+    "type": "Body",
+    "title": "Overweight",
+    "description": "Heavyset, with broad waistline.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Narrower top with wider hips and thighs below.",
+    "type": "Body",
+    "title": "Pear / Triangle",
+    "description": "Narrower top with wider hips.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Short but compact — small frame carrying more than it looks.",
+    "type": "Body",
+    "title": "Petite & Dense",
+    "description": "Short but compact.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Soft-bodied, with extra weight in the face and belly.",
+    "type": "Body",
+    "title": "Plump",
+    "description": "Soft-bodied, comfortable appearance.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Broad through the shoulders and chest, heavier in the limbs.",
+    "type": "Body",
+    "title": "Stocky",
+    "description": "Low center of gravity, dense build.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "androgynous",
+    "value": "Combines masculine and feminine traits for a gender-neutral look.",
+    "type": "Looks",
+    "title": "Androgynous",
+    "description": "Neither distinctly masculine nor feminine.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Fine-boned, composed, carrying the look of old bloodlines.",
+    "type": "Looks",
+    "title": "Aristocratic",
+    "description": "Fine-boned and aristocratic.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Time has given them character — distinguished rather than diminished.",
+    "type": "Looks",
+    "title": "Attractively Aged",
+    "description": "Distinguished and attractively aged.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Completely unremarkable—neither pleasant nor unpleasant.",
+    "type": "Looks",
+    "title": "Average",
+    "description": "Completely unremarkable.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Stunning in a classical sense, with symmetry and elegance.",
+    "type": "Looks",
+    "title": "Beautiful",
+    "description": "Stunning and elegant.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Approachable, likable face with lively expressions.",
+    "type": "Looks",
+    "title": "Charming",
+    "description": "Approachable and charming.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Conventional beauty that works in any era and any room.",
+    "type": "Looks",
+    "title": "Classic / Timeless",
+    "description": "Conventional and timeless beauty.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Otherworldly and flawless, with features seemingly unreal.",
+    "type": "Looks",
+    "title": "Ethereal",
+    "description": "Otherworldly and flawless.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Unusual eye shape, bone structure, or coloring that stands out.",
+    "type": "Looks",
+    "title": "Exotic / Outsider",
+    "description": "Exotic features that mark them as different.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Once striking; the glow has dimmed but the structure remains.",
+    "type": "Looks",
+    "title": "Faded Beauty",
+    "description": "Faded but structural beauty.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Feminine",
+    "value": "Features that read as traditionally female — soft, curved, delicate.",
+    "type": "Looks",
+    "title": "Feminine",
+    "description": "Traditionally female features.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Masculine",
+    "value": "Features that read as traditionally male — angular, structured.",
+    "type": "Looks",
+    "title": "Masculine",
+    "description": "Traditionally male features.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Marked by extreme disfigurement or scarring.",
+    "type": "Looks",
+    "title": "Grotesque",
+    "description": "Extreme disfigurement.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Clean-cut and confident, with strong jawline and defined features.",
+    "type": "Looks",
+    "title": "Handsome",
+    "description": "Clean-cut and confident.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Lacks symmetry or grace, with awkward or mismatched features.",
+    "type": "Looks",
+    "title": "Homely",
+    "description": "Awkward or mismatched features.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Chaotic appearance — attractive in a disheveled way.",
+    "type": "Looks",
+    "title": "Hot Mess",
+    "description": "Chaotic but attractive.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Size, presence, or bearing makes them hard to ignore.",
+    "type": "Looks",
+    "title": "Imposing",
+    "description": "Commanding and imposing presence.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Wide eyes and soft features that suggest youth or fragility.",
+    "type": "Looks",
+    "title": "Innocent / Vulnerable",
+    "description": "Wide eyes and soft features.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Neat-looking",
+    "value": "Well-groomed and orderly, with a clean presentable appearance.",
+    "type": "Looks",
+    "title": "Neat",
+    "description": "Well-groomed and orderly.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Soft features, balanced proportions, and gentle appeal.",
+    "type": "Looks",
+    "title": "Pretty",
+    "description": "Soft features and gentle appeal.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extremely light skin due to albinism.",
+    "type": "Skin Color",
+    "title": "Albinistic",
+    "description": "Extremely light skin due to albinism.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Cool blue skin — striking and inhuman.",
+    "type": "Skin Color",
+    "title": "Blue",
+    "description": "Cool blue skin.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "",
+    "value": "Medium to dark brown skin with warm undertones.",
+    "type": "Skin Color",
+    "title": "Brown",
+    "description": "Medium to dark brown skin.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rich, dark brown to almost black skin tones.",
+    "type": "Skin Color",
+    "title": "Dark Brown",
+    "description": "Rich, dark brown skin.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep olive or golden-brown tones.",
+    "type": "Skin Color",
+    "title": "Dark Olive",
+    "description": "Deep olive or golden-brown tones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Light complexion with warm (yellow or peach) undertones.",
+    "type": "Skin Color",
+    "title": "Fair",
+    "description": "Light complexion with warm undertones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Ash-grey skin suggesting undeath, stone, or storm.",
+    "type": "Skin Color",
+    "title": "Gray",
+    "description": "Ash-grey skin.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "",
+    "value": "Green skin ranging from olive to vivid emerald.",
+    "type": "Skin Color",
+    "title": "Green",
+    "description": "Green skin.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "",
+    "value": "Light to medium skin with a subtle green or golden undertone.",
+    "type": "Skin Color",
+    "title": "Light Olive",
+    "description": "Light to medium skin with subtle green undertone.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Naturally tanned-looking skin with warm or neutral tones.",
+    "type": "Skin Color",
+    "title": "Medium",
+    "description": "Naturally tanned-looking skin.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Skin with a sheen of silver, gold, or bronze.",
+    "type": "Skin Color",
+    "title": "Metallic",
+    "description": "Skin with a metallic sheen.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "",
+    "value": "Extremely pale, almost translucent skin.",
+    "type": "Skin Color",
+    "title": "Porcelain",
+    "description": "Extremely pale, almost translucent skin.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep red skin, vivid and unmistakably supernatural.",
+    "type": "Skin Color",
+    "title": "Red",
+    "description": "Deep red skin.",
+    "useForCharacterCreation": false
+  },
+  {
+    "keys": "",
+    "value": "Light skin with pink or beige undertones.",
+    "type": "Skin Color",
+    "title": "Very Fair",
+    "description": "Light skin with pink or beige undertones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "Vitiligo",
+    "value": "Loss of pigment in certain areas of the skin, resulting in white patches.",
+    "type": "Skin Color",
+    "title": "Vitiligo",
+    "description": "Loss of pigment resulting in white patches.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Warm golden or copper tones; rare and exotic.",
+    "type": "Eye Color",
+    "title": "Amber",
+    "description": "Warm golden or copper tones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Pale, washed-out blue — soft and light.",
+    "type": "Eye Color",
+    "title": "Baby Blue",
+    "description": "Pale, washed-out blue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extremely dark irises that appear black.",
+    "type": "Eye Color",
+    "title": "Black",
+    "description": "Extremely dark irises.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Non-functional eyes; may be milky, scarred, or absent.",
+    "type": "Eye Color",
+    "title": "Blind",
+    "description": "Non-functional eyes.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep, rich blue with minimal grey or green undertone.",
+    "type": "Eye Color",
+    "title": "Dark Blue",
+    "description": "Deep, rich blue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Almost black in appearance; gives a sense of intensity.",
+    "type": "Eye Color",
+    "title": "Dark Brown",
+    "description": "Almost black in appearance.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep, jewel-toned green; striking and regal.",
+    "type": "Eye Color",
+    "title": "Emerald Green",
+    "description": "Deep, jewel-toned green.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "True gray eyes, rare and mysterious.",
+    "type": "Eye Color",
+    "title": "Gray",
+    "description": "True gray eyes.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A golden-brown mix with flecks of green or amber.",
+    "type": "Eye Color",
+    "title": "Hazel",
+    "description": "Golden-brown mix with green/amber flecks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mismatched eyes developed after injury or illness.",
+    "type": "Eye Color",
+    "title": "Heterochromia (Acquired)",
+    "description": "Mismatched eyes due to injury.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Inner ring of the iris is a different color than the outer.",
+    "type": "Eye Color",
+    "title": "Heterochromia (Central)",
+    "description": "Inner ring is a different color.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Each eye is a completely different color.",
+    "type": "Eye Color",
+    "title": "Heterochromia (Complete)",
+    "description": "Each eye is a completely different color.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Very pale blue, almost silvery; piercing.",
+    "type": "Eye Color",
+    "title": "Ice Blue",
+    "description": "Very pale blue, almost silvery.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Soft, warm brown with honey or golden tints.",
+    "type": "Eye Color",
+    "title": "Light Brown",
+    "description": "Soft, warm brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep, vivid blue; striking and noble.",
+    "type": "Eye Color",
+    "title": "Sapphire",
+    "description": "Deep, vivid blue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Pale blonde with cool, grayish undertones.",
+    "type": "Hair Color",
+    "title": "Ash Blonde",
+    "description": "Pale blonde with grayish undertones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep red-brown with rich, warm undertones.",
+    "type": "Hair Color",
+    "title": "Auburn",
+    "description": "Deep red-brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Black hair with a distinct cool blue sheen.",
+    "type": "Hair Color",
+    "title": "Blue-Black",
+    "description": "Black hair with a blue sheen.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rich, golden-brown like pulled caramel.",
+    "type": "Hair Color",
+    "title": "Caramel Brown",
+    "description": "Rich, golden-brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Medium warm brown with golden or reddish tones.",
+    "type": "Hair Color",
+    "title": "Chestnut Brown",
+    "description": "Medium warm brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rich, dark brown; smooth and classic.",
+    "type": "Hair Color",
+    "title": "Chocolate Brown",
+    "description": "Rich, dark brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No hair — shaved, waxed, or naturally absent.",
+    "type": "Hair Color",
+    "title": "Bald",
+    "description": "No hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Bright, fiery red; eye-catching and vibrant.",
+    "type": "Hair Color",
+    "title": "Copper Red",
+    "description": "Bright, fiery red.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Blonde darkened with ash or brown tones.",
+    "type": "Hair Color",
+    "title": "Dirty Blonde",
+    "description": "Blonde darkened with ash or brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A color clearly not their own — chosen, not born with.",
+    "type": "Hair Color",
+    "title": "Dyed",
+    "description": "Unnatural dyed hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Very dark brown, nearly black; sleek and sophisticated.",
+    "type": "Hair Color",
+    "title": "Espresso",
+    "description": "Very dark brown, nearly black.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Warm blonde with golden tones; bright and sun-kissed.",
+    "type": "Hair Color",
+    "title": "Golden Blonde",
+    "description": "Warm blonde with golden tones.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Naturally graying hair, either aged or prematurely silver.",
+    "type": "Hair Color",
+    "title": "Gray/Silver",
+    "description": "Naturally graying hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Warm golden-brown with natural amber highlights.",
+    "type": "Hair Color",
+    "title": "Honey Brown",
+    "description": "Warm golden-brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Almost white blonde — pale, cool, and striking.",
+    "type": "Hair Color",
+    "title": "Ice Blonde",
+    "description": "Almost white blonde.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Deep black with a cool, almost blue shine.",
+    "type": "Hair Color",
+    "title": "Jet Black",
+    "description": "Deep black with a cool shine.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Dark, reddish-brown with a deep shine.",
+    "type": "Hair Color",
+    "title": "Mahogany",
+    "description": "Dark, reddish-brown.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Very dark blue hair — almost black until light hits it.",
+    "type": "Hair Color",
+    "title": "Midnight Blue",
+    "description": "Very dark blue hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extremely light blonde, almost silvery.",
+    "type": "Hair Color",
+    "title": "Platinum Blonde",
+    "description": "Extremely light blonde.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A mix of gray and black or dark brown.",
+    "type": "Hair Color",
+    "title": "Salt-and-Pepper",
+    "description": "A mix of gray and dark hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Reaches the armpit when straight.",
+    "type": "hair length",
+    "title": "Armpit-length (35-45cm)",
+    "description": "Reaches the armpit.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mid-back, aligning with where a bra strap sits.",
+    "type": "hair length",
+    "title": "Bra strap-length (45-55cm)",
+    "description": "Mid-back length.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Bob-length — jaw to chin.",
+    "type": "hair length",
+    "title": "Chin-length (15-20cm)",
+    "description": "Bob-length, jaw to chin.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Sits just at or below the collarbone.",
+    "type": "hair length",
+    "title": "Collarbone-length (30-35cm)",
+    "description": "Sits at the collarbone.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Short hair just reaching or covering the ears.",
+    "type": "hair length",
+    "title": "Ear-length (10-15cm)",
+    "description": "Short hair covering the ears.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Classic shoulder-length; versatile and common.",
+    "type": "hair length",
+    "title": "Shoulder-length (30-40cm)",
+    "description": "Shoulder-length hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Tight, densely packed coils with significant shrinkage.",
+    "type": "hair type",
+    "title": "Coily hair (type4)",
+    "description": "Tight, densely packed coils.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Defined spiral or ringlet curls with visible bounce.",
+    "type": "hair type",
+    "title": "Curly hair (type3)",
+    "description": "Defined spiral curls.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Perfectly flat strands with no natural curl or wave.",
+    "type": "hair type",
+    "title": "Straight hair (type1)",
+    "description": "Perfectly flat strands.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Loose S-shaped waves, neither straight nor curly.",
+    "type": "hair type",
+    "title": "Wavy Hair (type2)",
+    "description": "Loose S-shaped waves.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A thin line of beard following the jawline only.",
+    "type": "beard",
+    "title": "Chinstrap",
+    "description": "A thin line of beard along the jaw.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Chin beard shaped to a central point.",
+    "type": "beard",
+    "title": "Ducktail",
+    "description": "Chin beard shaped to a point.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Beard dyed to a non-natural color.",
+    "type": "beard",
+    "title": "Dyed Beard",
+    "description": "Beard dyed unnaturally.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Chin hair only, with or without a connecting mustache.",
+    "type": "beard",
+    "title": "Goatee",
+    "description": "Chin hair only.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Dense stubble just shy of becoming a proper beard.",
+    "type": "beard",
+    "title": "Heavy Stubble",
+    "description": "Dense stubble.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A few days of growth; deliberately maintained at short length.",
+    "type": "beard",
+    "title": "Light Stubble",
+    "description": "Short regrowth.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A substantial beard reaching the chest or beyond.",
+    "type": "beard",
+    "title": "Long Beard",
+    "description": "A substantial beard.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Full coverage, kept short and well-groomed.",
+    "type": "beard",
+    "title": "Medium Beard",
+    "description": "Full but short beard.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Wide sideburns extending onto the cheeks.",
+    "type": "beard",
+    "title": "Mutton Chops",
+    "description": "Wide sideburns on the cheeks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No beard; face kept smooth.",
+    "type": "beard",
+    "title": "Clean-Shaven",
+    "description": "Smooth face.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Sparse or uneven growth; won't fill in fully.",
+    "type": "beard",
+    "title": "Patchy",
+    "description": "Sparse or uneven beard.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A neat, close-cut beard with defined edges.",
+    "type": "beard",
+    "title": "Short Beard",
+    "description": "Neat, close-cut beard.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Pointed goatee and separate mustache.",
+    "type": "beard",
+    "title": "Van Dyke",
+    "description": "Pointed goatee and separate mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Full, broad mustache sitting squarely above the lip.",
+    "type": "mustache",
+    "title": "Chevron Mustache",
+    "description": "Full, broad mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Slim and neatly kept, barely wider than the mouth.",
+    "type": "mustache",
+    "title": "English Mustache",
+    "description": "Slim, neat mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Long, thin strands hanging down past the chin.",
+    "type": "mustache",
+    "title": "Fu Manchu",
+    "description": "Long, thin strands hanging down.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Long, upswept ends curled dramatically outward.",
+    "type": "mustache",
+    "title": "Handlebar Mustache",
+    "description": "Curled ends pointing outward.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Downward curves framing the mouth to the chin.",
+    "type": "mustache",
+    "title": "Horseshoe Mustache",
+    "description": "Downward curved mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Narrow, precisely trimmed line above the lip.",
+    "type": "mustache",
+    "title": "Pencil Mustache",
+    "description": "Thin line mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Thick and drooping, concealing most of the upper lip.",
+    "type": "mustache",
+    "title": "Walrus Mustache",
+    "description": "Thick and drooping mustache.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Dense coverage on the back and shoulders; less elsewhere.",
+    "type": "body hair",
+    "title": "Back & Shoulders Heavy",
+    "description": "Dense back and shoulder hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No body hair at all — naturally or by removal.",
+    "type": "body hair",
+    "title": "Bald / Hairless",
+    "description": "No body hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Concentrated on the chest with lighter coverage elsewhere.",
+    "type": "body hair",
+    "title": "Chest-Focused",
+    "description": "Concentrated chest hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Dense, thick hair covering significant portions of the body.",
+    "type": "body hair",
+    "title": "Hairy",
+    "description": "Dense, thick body hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Fine, even body hair that lies flat and soft.",
+    "type": "body hair",
+    "title": "Light & Even",
+    "description": "Fine, even body hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Body hair present but deliberately maintained and shaped.",
+    "type": "body hair",
+    "title": "Neatly Trimmed",
+    "description": "Maintained and trimmed body hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Completely ungroomed; grows however it wants.",
+    "type": "body hair",
+    "title": "Wild Natural",
+    "description": "Ungroomed natural body hair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Scarring severe enough to have changed physical structure or form.",
+    "type": "Body Scarring",
+    "title": "Disfiguring Body Scar",
+    "description": "Severe body disfigurement.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extreme scarring covering most of the body.",
+    "type": "Body Scarring",
+    "title": "Extreme Body Scar",
+    "description": "Extreme body scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Heavy scarring across large areas; immediately apparent.",
+    "type": "Body Scarring",
+    "title": "Heavy Body Scar",
+    "description": "Heavy body scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "A few faint marks, barely noticeable in normal light.",
+    "type": "Body Scarring",
+    "title": "Minimal Body Scar",
+    "description": "Minimal body marks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Moderate scarring spread across parts of the body.",
+    "type": "Body Scarring",
+    "title": "Moderate Body Scar",
+    "description": "Moderate body scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Scars visible at normal distance; part of their appearance.",
+    "type": "Body Scarring",
+    "title": "Noticeable Body Scar",
+    "description": "Visible body scars.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Severe scarring that has altered the surface of the skin significantly.",
+    "type": "Body Scarring",
+    "title": "Severe Body Scar",
+    "description": "Severe body scars.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Light scarring visible on close inspection.",
+    "type": "Body Scarring",
+    "title": "Slight Body Scar",
+    "description": "Slight body scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Substantial scarring; clearly carries a history of injury.",
+    "type": "Body Scarring",
+    "title": "Substantial Body Scar",
+    "description": "Substantial body scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Scarring so severe it has fundamentally changed their face.",
+    "type": "facial scarring",
+    "title": "Disfiguring Facial Scar",
+    "description": "Disfiguring face scar.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Extreme scarring covering most of the face.",
+    "type": "facial scarring",
+    "title": "Extreme Facial Scar",
+    "description": "Extreme face scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Heavy scarring that draws the eye; hard to look past.",
+    "type": "facial scarring",
+    "title": "Heavy Facial Scar",
+    "description": "Heavy facial scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Barely-there marks invisible without close examination.",
+    "type": "facial scarring",
+    "title": "Imperceptible Facial Scar",
+    "description": "Imperceptible face marks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Faint traces; only visible in certain light.",
+    "type": "facial scarring",
+    "title": "Minimal Facial Scar",
+    "description": "Minimal facial scars.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Clear scarring on the face; part of how they're recognized.",
+    "type": "facial scarring",
+    "title": "Moderate Facial Scar",
+    "description": "Moderate facial scars.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No facial scars.",
+    "type": "facial scarring",
+    "title": "No Facial Scar",
+    "description": "Smooth face.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Immediately visible; a defining feature of their face.",
+    "type": "facial scarring",
+    "title": "Noticeable Facial Scar",
+    "description": "Noticeable facial scars.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Severe scarring that has visibly altered their features.",
+    "type": "facial scarring",
+    "title": "Severe Facial Scar",
+    "description": "Severe facial scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Subtle but noticeable to an attentive observer.",
+    "type": "facial scarring",
+    "title": "Slight Facial Scar",
+    "description": "Slight facial marks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Substantial facial scarring spanning multiple areas.",
+    "type": "facial scarring",
+    "title": "Substantial Facial Scar",
+    "description": "Substantial facial scarring.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Head-to-toe tattoos; no untouched skin visible.",
+    "type": "Tattoo extensivity",
+    "title": "Completely Covered Tattoos",
+    "description": "Completely tattooed.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Significant coverage — tattoos are clearly part of their identity.",
+    "type": "Tattoo extensivity",
+    "title": "Heavy Tattoos",
+    "description": "Heavy tattoo coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "One or two small pieces; easy to miss.",
+    "type": "Tattoo extensivity",
+    "title": "Minimal Tattoos",
+    "description": "Minimal tattoo coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Several tattoos; visible but not overwhelming.",
+    "type": "Tattoo extensivity",
+    "title": "Moderate Tattoos",
+    "description": "Moderate tattoo coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Almost entirely tattooed; only small patches of bare skin remain.",
+    "type": "Tattoo extensivity",
+    "title": "Near Covered Tattoos",
+    "description": "Near complete tattoo coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No tattoos whatsoever.",
+    "type": "Tattoo extensivity",
+    "title": "No Tattoos",
+    "description": "No tattoos.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Tattoos on the body, not the face.",
+    "type": "Tattoo placements",
+    "title": "Tattoos on Body",
+    "description": "Tattoos on body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Tattoos on the face only.",
+    "type": "Tattoo placements",
+    "title": "Tattoos on Face",
+    "description": "Tattoos on face.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Tattoos across both face and body.",
+    "type": "Tattoo placements",
+    "title": "Tattoos on Face and Body",
+    "description": "Tattoos on face and body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Many piercings; clearly a defining part of their look.",
+    "type": "Piercing extensivity",
+    "title": "Heavy Piercings",
+    "description": "Heavy piercing coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Covered in piercings; an unmissable statement.",
+    "type": "Piercing extensivity",
+    "title": "Extreme Piercings",
+    "description": "Extreme piercing coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "One or two subtle piercings; barely noticeable.",
+    "type": "Piercing extensivity",
+    "title": "Minimal Piercings",
+    "description": "Minimal piercing coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Several piercings — visible but not overwhelming.",
+    "type": "Piercing extensivity",
+    "title": "Moderate Piercings",
+    "description": "Moderate piercing coverage.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "No piercings of any kind.",
+    "type": "Piercing extensivity",
+    "title": "No Piercings",
+    "description": "No piercings.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Body piercings only, no facial or ear piercings.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Body",
+    "description": "Piercings on body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Ear piercings only.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Ears",
+    "description": "Piercings on ears.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Ear and body piercings; no facial piercings.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Ears and Body",
+    "description": "Piercings on ears and body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Piercings on the face only.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Face",
+    "description": "Piercings on face.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Piercings across face and body but not the ears.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Face and Body",
+    "description": "Piercings on face and body.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Face and ear piercings; nothing on the body.",
+    "type": "Piercing Placement",
+    "title": "Piercings on Face and Ears",
+    "description": "Piercings on face and ears.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Small rings through horn nubs and wing-membrane edges.",
+    "type": "Piercing Placement",
+    "title": "Imp Horns & Wings Pierced",
+    "description": "Imp specific piercings.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rings and bars through frill edges and dorsal spines.",
+    "type": "Piercing Placement",
+    "title": "Lizardman Piercings",
+    "description": "Lizardman specific piercings.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Shell and bone pieces threaded through fin edges and jaw.",
+    "type": "Piercing Placement",
+    "title": "Merman Piercings",
+    "description": "Merman specific piercings.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Joint inflammation causing pain and reduced mobility, worsening over time.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Arthritis",
+    "description": "Joint inflammation causing pain.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Breathing restricted by chronic airway inflammation.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Asthma",
+    "description": "Breathing restricted.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "The immune system attacks the body's own tissue.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Autoimmune Condition",
+    "description": "Immune system attacks body tissue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Cannot see or has severely limited functional vision.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Blindness",
+    "description": "Limited functional vision.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Has had cancer — currently in remission; the shadow remains.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Cancer / In Remission",
+    "description": "Cancer in remission.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Profound, unrelenting exhaustion that rest doesn't fix.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Chronic Fatigue",
+    "description": "Unrelenting exhaustion.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Persistent pain with no clear cause — exhausting and invisible to others.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Chronic Pain",
+    "description": "Persistent pain.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Inflammatory bowel disease causing chronic digestive pain and disruption.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Crohn's / IBD",
+    "description": "Inflammatory bowel disease.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Cannot hear or has severely limited functional hearing.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Deafness",
+    "description": "Severely limited functional hearing.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Blood sugar regulation disorder requiring constant management.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Diabetes",
+    "description": "Blood sugar regulation disorder.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Seizure disorder — unpredictable and life-organizing.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Epilepsy",
+    "description": "Seizure disorder.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Widespread musculoskeletal pain paired with fatigue and brain fog.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Fibromyalgia",
+    "description": "Musculoskeletal pain and fatigue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Chronic cardiac issue requiring monitoring and lifestyle management.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Heart Condition",
+    "description": "Chronic cardiac issue.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Missing or significantly different limb, from birth or injury.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Limb Difference / Amputation",
+    "description": "Missing or different limb.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Systemic autoimmune disease affecting multiple organs and causing flares.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Lupus",
+    "description": "Systemic autoimmune disease.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Difficulty moving freely — may use aids or adapt movement patterns.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Mobility Impairment",
+    "description": "Difficulty moving freely.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Neurological disease disrupting signals between brain and body.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Multiple Sclerosis",
+    "description": "Neurological disease disrupting signals.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "A chronic condition affecting the nervous system and its functions.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Neurological Condition",
+    "description": "Condition affecting the nervous system.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Loss of movement in one or more body regions.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Paralysis",
+    "description": "Loss of movement.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "physical disability, chronic condition",
+    "value": "Relies on a wheelchair for mobility, full or part-time.",
+    "type": "Physical Disability / Chronic Condition",
+    "title": "Wheelchair User",
+    "description": "Relies on a wheelchair.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Landlocked Central Asian nation; home to the Hindu Kush mountains.",
+    "type": "Nationality",
+    "title": "Afghan",
+    "description": "From Afghanistan.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Small Balkan country on the Adriatic; known for clan loyalty and bunkers.",
+    "type": "Nationality",
+    "title": "Albanian",
+    "description": "From Albania.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Africa's largest country; Sahara dominates the south.",
+    "type": "Nationality",
+    "title": "Algerian",
+    "description": "From Algeria.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "North American superpower; cultural exporter and global military presence.",
+    "type": "Nationality",
+    "title": "American",
+    "description": "From the United States.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "South America's second largest nation; birthplace of tango and Messi.",
+    "type": "Nationality",
+    "title": "Argentine",
+    "description": "From Argentina.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Vast island continent with unique wildlife and a famously laid-back culture.",
+    "type": "Nationality",
+    "title": "Australian",
+    "description": "From Australia.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Alpine Central European nation; birthplace of Mozart and coffee house culture.",
+    "type": "Nationality",
+    "title": "Austrian",
+    "description": "From Austria.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Western European heart of the EU; famous for beer, chocolate, and waffles.",
+    "type": "Nationality",
+    "title": "Belgian",
+    "description": "From Belgium.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "South America's giant; carnival, football, and the Amazon.",
+    "type": "Nationality",
+    "title": "Brazilian",
+    "description": "From Brazil.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Island nation of four countries; constitutional monarchy and global cultural reach.",
+    "type": "Nationality",
+    "title": "British",
+    "description": "From the United Kingdom.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "World's second-largest country; vast wilderness, hockey, and politeness.",
+    "type": "Nationality",
+    "title": "Canadian",
+    "description": "From Canada.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Long, narrow South American strip; from the Atacama to Patagonia.",
+    "type": "Nationality",
+    "title": "Chilean",
+    "description": "From Chile.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "World's most populous nation; ancient civilization reshaping the modern world.",
+    "type": "Nationality",
+    "title": "Chinese",
+    "description": "From China.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "South American nation redefining itself beyond drug war notoriety.",
+    "type": "Nationality",
+    "title": "Colombian",
+    "description": "From Colombia.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Caribbean island nation; communist revolution, classic cars, and music.",
+    "type": "Nationality",
+    "title": "Cuban",
+    "description": "From Cuba.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Scandinavian kingdom; consistently ranks among the world's happiest nations.",
+    "type": "Nationality",
+    "title": "Danish",
+    "description": "From Denmark.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Western European delta nation; tulips, canals, and cycling infrastructure.",
+    "type": "Nationality",
+    "title": "Dutch",
+    "description": "From the Netherlands.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "North African nation anchored on the Nile; ancient civilization still visible.",
+    "type": "Nationality",
+    "title": "Egyptian",
+    "description": "From Egypt.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Nordic nation of forests and lakes; consistently the world's happiest country.",
+    "type": "Nationality",
+    "title": "Finnish",
+    "description": "From Finland.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Western European cultural powerhouse; wine, philosophy, and nuclear deterrence.",
+    "type": "Nationality",
+    "title": "French",
+    "description": "From France.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Central European industrial powerhouse; engineering, philosophy, and beer festivals.",
+    "type": "Nationality",
+    "title": "German",
+    "description": "From Germany.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mediterranean cradle of Western civilization; ancient ruins and island sun.",
+    "type": "Nationality",
+    "title": "Greek",
+    "description": "From Greece.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "South Asian giant; world's largest democracy, extraordinary diversity.",
+    "type": "Nationality",
+    "title": "Indian",
+    "description": "From India.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Southeast Asian archipelago of 17,000 islands; fourth most populous nation.",
+    "type": "Nationality",
+    "title": "Indonesian",
+    "description": "From Indonesia.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Ancient Persian civilization; Islamic Republic sitting atop vast oil reserves.",
+    "type": "Nationality",
+    "title": "Iranian",
+    "description": "From Iran.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Atlantic island nation; Celtic culture, literary giants, and emerald landscape.",
+    "type": "Nationality",
+    "title": "Irish",
+    "description": "From Ireland.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Middle Eastern nation; contested birthplace of three Abrahamic religions.",
+    "type": "Nationality",
+    "title": "Israeli",
+    "description": "From Israel.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Mediterranean peninsula; Renaissance art, ancient ruins, and spectacular food.",
+    "type": "Nationality",
+    "title": "Italian",
+    "description": "From Italy.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Caribbean island; birthplace of reggae, rum, and record-breaking sprinters.",
+    "type": "Nationality",
+    "title": "Jamaican",
+    "description": "From Jamaica.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "East Asian island nation; tradition and technology in permanent negotiation.",
+    "type": "Nationality",
+    "title": "Japanese",
+    "description": "From Japan.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "East African nation; Maasai, safaris, and long-distance running dominance.",
+    "type": "Nationality",
+    "title": "Kenyan",
+    "description": "From Kenya.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "North American nation of 130 million; ancient civilizations and taco supremacy.",
+    "type": "Nationality",
+    "title": "Mexican",
+    "description": "From Mexico.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "West African giant; most populous African country and Nollywood powerhouse.",
+    "type": "Nationality",
+    "title": "Nigerian",
+    "description": "From Nigeria.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Scandinavian nation; sovereign wealth fund, fjords, and aurora borealis.",
+    "type": "Nationality",
+    "title": "Norwegian",
+    "description": "From Norway.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Central European nation; resilient history and a rapidly rising economy.",
+    "type": "Nationality",
+    "title": "Polish",
+    "description": "From Poland.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Atlantic Iberian nation; Age of Exploration legacy and melancholic fado.",
+    "type": "Nationality",
+    "title": "Portuguese",
+    "description": "From Portugal.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "World's largest country; spanning eleven time zones from Europe to the Pacific.",
+    "type": "Nationality",
+    "title": "Russian",
+    "description": "From Russia.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Southern African nation; apartheid legacy, extraordinary biodiversity.",
+    "type": "Nationality",
+    "title": "South African",
+    "description": "From South Africa.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "East Asian economic powerhouse; K-pop, kimchi, and cutting-edge technology.",
+    "type": "Nationality",
+    "title": "South Korean",
+    "description": "From South Korea.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Iberian nation; flamenco, La Liga, and a spectacular architectural legacy.",
+    "type": "Nationality",
+    "title": "Spanish",
+    "description": "From Spain.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Believes that the existence of a higher power or divine being is unknowable.",
+    "type": "Religion",
+    "title": "Agnostic",
+    "description": "Focuses on knowledge and reason rather than divine belief.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rejects the belief in gods or divine beings.",
+    "type": "Religion",
+    "title": "Atheist",
+    "description": "Bases worldview on scientific evidence and reason.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Emphasizes unity and equality among all people, believing all religions share a source.",
+    "type": "Religion",
+    "title": "Baháʼí Faith",
+    "description": "Focuses on the oneness of humanity.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "The largest Christian denomination, led by the Pope.",
+    "type": "Religion",
+    "title": "Catholicism",
+    "description": "Christian denomination focused on tradition and sacraments.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Philosophical religion based on the teachings of Confucius.",
+    "type": "Religion",
+    "title": "Confucianism",
+    "description": "Emphasizes personal and governmental morality.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Christian denomination known for rich traditions and liturgies.",
+    "type": "Religion",
+    "title": "Eastern Orthodoxy",
+    "description": "Emphasizes community and spiritual growth.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Focuses on the worship of multiple deities and a belief in rebirth.",
+    "type": "Religion",
+    "title": "Hinduism",
+    "description": "Ancient religion focused on dharma and karma.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Adheres to non-violence, truth, and non-possession.",
+    "type": "Religion",
+    "title": "Jainism",
+    "description": "Emphasizes karma and the path to liberation.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "One of the oldest monotheistic religions, adhering to the Torah.",
+    "type": "Religion",
+    "title": "Judaism",
+    "description": "Belief in one God and traditional laws.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Encompasses a variety of nature-based spiritualities and ancient beliefs.",
+    "type": "Religion",
+    "title": "Paganism",
+    "description": "Worships nature and seasonal cycles.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Christian reform movement emphasizing individual interpretation of the Bible.",
+    "type": "Religion",
+    "title": "Protestantism",
+    "description": "Believes in salvation through faith alone.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Emphasizes the separation of religious and governmental institutions.",
+    "type": "Religion",
+    "title": "Secular",
+    "description": "Prioritizes science, reason, and humanism.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Branch of Islam emphasizing the leadership of the Imams.",
+    "type": "Religion",
+    "title": "Shia Islam",
+    "description": "Follows descendants of Prophet Muhammad.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Indigenous religion of Japan, emphasizing harmony with nature and Kami spirits.",
+    "type": "Religion",
+    "title": "Shinto",
+    "description": "Worships natural objects and phenomena.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Largest branch of Islam, following the teachings of Prophet Muhammad.",
+    "type": "Religion",
+    "title": "Sunni Islam",
+    "description": "Follows the Five Pillars of Islam.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Performs scripted roles in productions like films or theater plays.",
+    "type": "class",
+    "title": "Actor/Actress",
+    "description": "Inhabits other people's lives for a living.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Designs buildings and spaces, balancing aesthetics with functionality.",
+    "type": "class",
+    "title": "Architect",
+    "description": "Designs structures and environments.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Creates visual works using various techniques and mediums.",
+    "type": "class",
+    "title": "Artist",
+    "description": "Creates paintings, sculptures, and art.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Explores space, operates spacecraft, and conducts scientific research.",
+    "type": "class",
+    "title": "Astronaut",
+    "description": "Space explorer and researcher.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Prepares and sells bread, pastries, and other baked goods.",
+    "type": "class",
+    "title": "Baker",
+    "description": "Bakes and sells food items.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Prepares and serves drinks in bars, restaurants, and clubs.",
+    "type": "class",
+    "title": "Bartender",
+    "description": "Mixes and serves drinks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Studies living organisms and their environments.",
+    "type": "class",
+    "title": "Biologist",
+    "description": "Studies biology and ecosystems.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Protects important individuals from harm.",
+    "type": "class",
+    "title": "Bodyguard",
+    "description": "Provides personal security.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Leads a company and makes key executive decisions.",
+    "type": "class",
+    "title": "CEO",
+    "description": "Chief Executive Officer.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Prepares meals and manages kitchen operations.",
+    "type": "class",
+    "title": "Chef",
+    "description": "Professional cook.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Protects computer networks and systems from cyber threats.",
+    "type": "class",
+    "title": "Cybersecurity Specialist",
+    "description": "Defends against cyber attacks.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Investigates crimes and solves mysteries.",
+    "type": "class",
+    "title": "Detective",
+    "description": "Crime investigator.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Negotiates agreements and resolves conflicts between countries.",
+    "type": "class",
+    "title": "Diplomat",
+    "description": "Represents a country abroad.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Diagnoses and treats medical conditions in patients.",
+    "type": "class",
+    "title": "Doctor",
+    "description": "Medical professional.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Installs and repairs electrical systems.",
+    "type": "class",
+    "title": "Electrician",
+    "description": "Electrical tradesperson.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Designs, builds, and maintains structures or systems.",
+    "type": "class",
+    "title": "Engineer",
+    "description": "Professional problem solver and builder.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Cultivates land, raises livestock, and grows crops.",
+    "type": "class",
+    "title": "Farmer",
+    "description": "Agricultural worker.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Rescues people from fires and emergencies.",
+    "type": "class",
+    "title": "Firefighter",
+    "description": "Emergency first responder.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Gathers and reports news to inform the public.",
+    "type": "class",
+    "title": "Journalist",
+    "description": "News reporter.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Advises and represents clients in legal matters.",
+    "type": "class",
+    "title": "Lawyer",
+    "description": "Legal professional.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Repairs and maintains vehicles and machinery.",
+    "type": "class",
+    "title": "Mechanic",
+    "description": "Vehicle and machinery repairer.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Composes or performs music.",
+    "type": "class",
+    "title": "Musician",
+    "description": "Musical artist.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Operates aircraft for military or commercial use.",
+    "type": "class",
+    "title": "Pilot",
+    "description": "Aircraft operator.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Explores the natural world through experimentation.",
+    "type": "class",
+    "title": "Scientist",
+    "description": "Scientific researcher.",
+    "useForCharacterCreation": true
+  },
+  {
+    "keys": "",
+    "value": "Teaches subjects at schools or universities.",
+    "type": "class",
+    "title": "Teacher/Professor",
+    "description": "Educator.",
+    "useForCharacterCreation": true
+  }
+]

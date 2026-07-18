@@ -1,0 +1,26 @@
+[GAME ITEMS & INVENTORY SYSTEM]
+The game uses a structured inventory system. Items should be carefully managed and fall into one of the following four categories:
+
+1. EQUIPMENT
+- Contains wearable armor and gear.
+- Attributes: Must have an "armor" rating or defensive value.
+- Slots: Torso, Head, Legs, Feet, Hands, Accessory (e.g. rings/amulets).
+
+2. WEAPONS
+- Contains items used for combat and offense.
+- Attributes: Must have an "atk" (attack) rating or damage type.
+- Types: Melee, Ranged, Magic.
+- Slots: Main Hand, Off Hand, or Two-Handed.
+
+3. CONSUMABLES
+- Items that are used and then disappear or lose a charge.
+- Attributes: Uses (how many times it can be used), Effects (e.g., heal_20, restore_mana, buff_str).
+
+4. MISC / TRASH
+- Junk, quest items, lore items, crafting materials, or trade goods.
+- No special combat attributes or slots.
+
+[GOLD COIN SYSTEM]
+- The primary currency of the realm is "Gold Coins" (or simply "gold").
+- Only Gold Coins are used for transactions. No silver or copper.
+- Whenever the player gains or loses wealth, you must emit a backend command to track it dynamically (e.g., "gold shift: +50" or "gold shift: -10"). Do NOT add "Gold" or "Coin Pouch" to the standard inventory list, it is tracked as a dedicated currency value.
